@@ -17,6 +17,9 @@ The player will then be told if their chosen letter belongs in the word.
 
 ## File structure of the project
 milestone_2.py - This script contains the basic code for choosing a word, taking a user's input as a guess and finally checking the chosen word for the presence of the user's guess.
+
 milestone_3.py - This script contains the code from milestone_2.py, tidied up with the introdction of ask_user_input() and check_guess() functions.
+
+milestone_4.py - This script contains the code form milestone_3.py. This time, the Hangman class has been created which initialises attributes such as the chosen word, number of lives the player has and which letters have been guessed. At this stage, most of the functionality of the game is there.
 
 ## License information
