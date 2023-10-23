@@ -28,15 +28,14 @@ class Hangman:
     
     def ask_for_input(self):
         print(self.word_guessed)
-        while True:
-            guess = input("Please enter a letter: ")
-            if len(guess) != 1 or not guess.isalpha():
-                print("Invalid letter. Please, enter a single alphabetical character.")
-            elif guess in self.list_of_guesses:
-                print("You already tried that letter!")
-            else:
-                self.check_guess(guess)
-                self.list_of_guesses.append(guess)
+        guess = input("Please enter a letter: ")
+        if len(guess) != 1 or not guess.isalpha():
+            print("Invalid letter. Please, enter a single alphabetical character.")
+        elif guess in self.list_of_guesses:
+            print("You already tried that letter!")
+        else:
+            self.check_guess(guess)
+            self.list_of_guesses.append(guess)
 
 
 def play_game(word_list):
