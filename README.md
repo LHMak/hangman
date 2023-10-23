@@ -7,7 +7,14 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
-I am undertaking this project as part of my journey studying with AiCore. With this, I aim to gain more experience coding in Python and using Github for version control. I intend to update this README after hitting each milestone of the project
+I am undertaking this project as part of my journey studying with AiCore. With this, I aim to gain more experience coding in Python and using Github for version control. I intend to update this README after hitting each milestone of the project.
+
+Of note, some things I have learnt are:
+- Creating a new class and initialising its attributes.
+- Defining class methods and calling them both inside and outside the class.
+- General research and debugging issues.
+- Committing, pulling and pushing changes to a remote repo.
+- Writing a README and the meaning of an MIT license.
 
 ## Installation instructions
 No installation is required for this project. Just run 'milestone_5.py'
@@ -39,3 +46,4 @@ milestone_4.py - This script contains the code form milestone_3.py. This time, t
 milestone_5.py - This script contains all functionality from previous milestones. In addition, the master function 'play_game()' has been introduced. This function determines the number of lives the player has as well as containing the win/loss conditions of the game. 
 
 ## License information
+This project is licensed under the terms of the MIT license.
